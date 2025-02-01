@@ -38,36 +38,43 @@ Antes de instalar y ejecutar el proyecto, asegúrate de cumplir con los siguient
 - ReportLab (generación de informes en PDF)
 - Docker(Contenedorización del proyecto)
 
+Ademas de las utilizadas en **requirements.txt**
+
+
 ### **Instalación**
 
 #### 1. Crea una carpeta en "archivos"
 
-#### 2. Abre VS code - click derecho dentro de la carpeta, click en "Abrir en Terminal"", escribe "code ." 
+#### 2. Abre VS code - click derecho dentro de la carpeta, click en "Abrir en Terminal"", escribe "code . " 
 
-#### 1. Clonar el repositorio - control + mayuscula + p, click en "Git: Clone", pega:
+#### 3. Clonar el repositorio - control + mayuscula + p, click en "Git: Clone", pega:
 
- git clone https://github.com/tu-usuario/tu-repo.git
+https://github.com/julianamedinaa/Neumonia_Grupo4.git
 
-#### 2️. Crear un entorno virtual: control + mayuscula + p, buscas "python: select interprete", click en "create virtual enviroment", click en "venv", eliges el python V. 3.9
+#### 4. Crear un entorno virtual: control + mayuscula + p, buscas "python: select interprete", click en "create virtual enviroment", click en "venv", eliges el python V. 3.9
 
-python -m venv .venv
-
-
-#### 3️. Instalar dependencias:
+#### 5. Instalar dependencias:
 
 pip install -r requirements.txt
 
-
-#### 4️. Ejecutar la aplicación:
+#### 6. Ejecutar la aplicación:
 
 python main.py
 
-
-##  Uso con Docker
+#### 7. Uso con Docker
 
 docker build -t neumonia-detector .
 docker run -p 8501:8501 neumonia-detector
 
-Ademas de las utilizadas en **requirements.txt**
+
+### **Uso de la Interfaz Gráfica:**
+
+- Ingrese la cédula del paciente en la caja de texto
+- Presione el botón 'Cargar Imagen', seleccione la imagen del explorador de archivos del computador
+- Presione el botón 'Predecir' y espere unos segundos hasta que observe los resultados
+- Presione el botón 'Guardar' para almacenar la información del paciente en un archivo excel con extensión .csv
+- Presione el botón 'PDF' para descargar un archivo PDF con la información desplegada en la interfaz
+- Presión el botón 'Borrar' si desea cargar una nueva imagen
+
 
 NOTA: siempre se debe inicar el programa en la GUI
