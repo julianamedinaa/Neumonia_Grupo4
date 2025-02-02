@@ -9,7 +9,7 @@
 # 
 
 ### **¿Qué es la neumonia?**
-Es una infeccion que inflama los sacos de aire en uno o ambos pulmones, los cuales pueden llenarse de liquido o pus. Esto hace que cause tos con flema, fiebre, escalofrios y dificultades para respirar. Esta enfermedad puede ser causada por bacterias y virus, afectand especificamente a niñs, adultos mayores y personas con sistemas inmunológicos debiitados.
+Es una infeccion que inflama los sacos de aire en uno o ambos pulmones, los cuales pueden llenarse de liquido o pus. Esto hace que cause tos con flema, fiebre, escalofrios y dificultades para respirar. Esta enfermedad puede ser causada por bacterias y virus, afectando especificamente a niños, adultos mayores y personas con sistemas inmunológicos debiitados.
 
 ![image](https://github.com/user-attachments/assets/90e1190c-7ef8-46c4-a8aa-cc6c9b7979a9)
 
