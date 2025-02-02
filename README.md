@@ -110,4 +110,5 @@ docker run -p 8501:8501 neumonia-detector
   Script que recibe la imagen y la procesa, carga el modelo, obtiene la predicción y la capa convolucional de interés para obtener las características relevantes de la imagen.
 
 
-NOTA: siempre se debe inicar el programa en la GUI
+NOTA: Aunque exista una carpeta llamada test, esta solamente aloja archivos como imagenes y CSV.
+En el lado de documentos, tenemos una carpeta llamada "test" en donde se detallan las pruebas realizadas
